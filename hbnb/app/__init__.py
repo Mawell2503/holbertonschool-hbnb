@@ -1,5 +1,7 @@
 from flask import Flask
 from flask_restx import Api
+#  a flask is a lightweight web framework; it lets u connect URLs to python
+#  its used to build web applications and APIs
 
 def create_app():
     app = Flask(__name__)
